@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "eu-north-1"
+  default = "us-east-1"
 }
 
 variable "ami_id" {
@@ -7,6 +7,6 @@ variable "ami_id" {
 }
 
 variable "key_name" {
-  description = "key_pair_learn_2"
+  description = "key_pair_learn_2.pem"
   type        = string
 }
