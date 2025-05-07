@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "us-east-1"
+  default = "eu-north-1"
 }
 
 variable "ami_id" {
@@ -7,6 +7,6 @@ variable "ami_id" {
 }
 
 variable "key_name" {
-  description = "Name of your existing AWS Key Pair"
+  description = "key_pair_learn_2"
   type        = string
 }
