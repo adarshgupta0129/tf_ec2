@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "ami_id" {
-  default = "ami-09eb4311cbaecf89f" # Amazon Linux 2 in us-east-1
+  default = "ami-0fe8bec493a81c7da" # ✅ Amazon Linux 2 in eu-north-1 (Stockholm)
 }
 
 variable "key_name" {
