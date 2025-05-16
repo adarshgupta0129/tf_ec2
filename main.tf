@@ -41,6 +41,6 @@ resource "aws_instance" "free_tier_ec2" {
   vpc_security_group_ids = [aws_security_group.main.id]
 
   tags = {
-    Name = "FreeTierEC2"
+    Name = "FreeTierEC2_new"
   }
 }
