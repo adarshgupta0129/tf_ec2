@@ -25,8 +25,15 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform Plan
-        run: terraform plan -input=false -var="key_name=key_pair_learn_2"
+# Added block to destroy all in one START
+      - name: Terraform Destroy
+        run: terraform destroy -auto-approve
+# Added block to destroy all in one END
 
-      - name: Terraform Apply
-        run: terraform apply -auto-approve -input=false -var="key_name=key_pair_learn_2"
+# Code to create START
+    #  - name: Terraform Plan
+    #    run: terraform plan -input=false -var="key_name=key_pair_learn_2"
+
+    #  - name: Terraform Apply
+    #    run: terraform apply -auto-approve -input=false -var="key_name=key_pair_learn_2"
+# Code to create END
