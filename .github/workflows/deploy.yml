@@ -27,7 +27,7 @@ jobs:
 
 # Added block to destroy all in one START
       - name: Terraform Destroy
-        run: terraform destroy -auto-approve -input=false -var="key_name=key_pair_learn_2"
+        run: terraform destroy -auto-approve -var="key_name=key_pair_learn_2"
 # Added block to destroy all in one END
 
 # Code to create START
